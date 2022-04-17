@@ -70,51 +70,51 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardArrayBig = [
         {
             name: 'cow',
-            img: 'images/cow.png'
+            img: 'images/animal/cow.png'
         },
         {
             name: 'cow',
-            img: 'images/cow.png'
+            img: 'images/animal/cow.png'
         },
         {
             name: 'fox',
-            img: 'images/fox.png'
+            img: 'images/animal/fox.png'
         },
         {
             name: 'fox',
-            img: 'images/fox.png'
+            img: 'images/animal/fox.png'
         },
         {
             name: 'koala',
-            img: 'images/koala.png'
+            img: 'images/animal/koala.png'
         },
         {
             name: 'koala',
-            img: 'images/koala.png'
+            img: 'images/animal/koala.png'
         },
         {
             name: 'lion',
-            img: 'images/lion.png'
+            img: 'images/animal/lion.png'
         },
         {
             name: 'lion',
-            img: 'images/lion.png'
+            img: 'images/animal/lion.png'
         },
         {
             name: 'livestock',
-            img: 'images/livestock.png'
+            img: 'images/animal/livestock.png'
         },
         {
             name: 'livestock',
-            img: 'images/livestock.png'
+            img: 'images/animal/livestock.png'
         },
         {
             name: 'turtle',
-            img: 'images/turtle.png'
+            img: 'images/animal/turtle.png'
         },
         {
             name: 'turtle',
-            img: 'images/turtle.png'
+            img: 'images/animal/turtle.png'
         }
     ]
 
