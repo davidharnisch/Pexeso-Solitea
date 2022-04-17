@@ -2,68 +2,68 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let cardArrayBiggest = [
         {
-            name: 'cow',
-            img: 'images/cow.png'
+            name: 'potato',
+            img: 'images/vegetables/potato.png'
         },
         {
-            name: 'cow',
-            img: 'images/cow.png'
+            name: 'potato',
+            img: 'images/vegetables/potato.png'
         },
         {
-            name: 'fox',
-            img: 'images/fox.png'
+            name: 'beans',
+            img: 'images/vegetables/beans.png'
         },
         {
-            name: 'fox',
-            img: 'images/fox.png'
+            name: 'beans',
+            img: 'images/vegetables/beans.png'
         },
         {
-            name: 'koala',
-            img: 'images/koala.png'
+            name: 'bell-pepper',
+            img: 'images/vegetables/bell-pepper.png'
         },
         {
-            name: 'koala',
-            img: 'images/koala.png'
+            name: 'bell-pepper',
+            img: 'images/vegetables/bell-pepper.png'
         },
         {
-            name: 'lion',
-            img: 'images/lion.png'
+            name: 'broccoli',
+            img: 'images/vegetables/broccoli.png'
         },
         {
-            name: 'lion',
-            img: 'images/lion.png'
+            name: 'broccoli',
+            img: 'images/vegetables/broccoli.png'
         },
         {
-            name: 'livestock',
-            img: 'images/livestock.png'
+            name: 'cabbage',
+            img: 'images/vegetables/cabbage.png'
         },
         {
-            name: 'livestock',
-            img: 'images/livestock.png'
+            name: 'cabbage',
+            img: 'images/vegetables/cabbage.png'
         },
         {
-            name: 'turtle',
-            img: 'images/turtle.png'
+            name: 'carrot',
+            img: 'images/vegetables/carrot.png'
         },
         {
-            name: 'turtle',
-            img: 'images/turtle.png'
+            name: 'carrot',
+            img: 'images/vegetables/carrot.png'
         },
         {
-            name: 'livestock',
-            img: 'images/livestock.png'
+            name: 'eggplant',
+            img: 'images/vegetables/eggplant.png'
         },
         {
-            name: 'livestock',
-            img: 'images/livestock.png'
+            name: 'eggplant',
+            img: 'images/vegetables/eggplant.png'
         },
         {
-            name: 'turtle',
-            img: 'images/turtle.png'
+            name: 'onion',
+            img: 'images/vegetables/onion.png'
         },
         {
-            name: 'turtle',
-            img: 'images/turtle.png'
+            name: 'onion',
+            img: 'images/vegetables/onion.png'
         }
     ]
 
@@ -121,20 +121,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let cardArraySmall = [
         {
-            name: 'cow',
-            img: 'images/cow.png'
+            name: 'apple',
+            img: 'images/fruits/apple.png'
         },
         {
-            name: 'cow',
-            img: 'images/cow.png'
+            name: 'apple',
+            img: 'images/fruits/apple.png'
         },
         {
-            name: 'fox',
-            img: 'images/fox.png'
+            name: 'lemon',
+            img: 'images/fruits/lemon.png'
         },
         {
-            name: 'fox',
-            img: 'images/fox.png'
+            name: 'lemon',
+            img: 'images/fruits/lemon.png'
+        },
+        {
+            name: 'strawberry',
+            img: 'images/fruits/strawberry.png'
+        },
+        {
+            name: 'strawberry',
+            img: 'images/fruits/strawberry.png'
+        },
+        {
+            name: 'bananas',
+            img: 'images/fruits/bananas.png'
+        },
+        {
+            name: 'bananas',
+            img: 'images/fruits/bananas.png'
         }
     ]
 
