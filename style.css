@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Rexlia-W00-Heavy";
+    src: url("fonts/Rexlia-W00-Heavy.woff") format("woff"), url("fonts/Rexlia-W00-Heavy.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: rgb(133, 133, 88);
+    font-family: Rexlia-W00-Heavy, serif;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+/* Style modal start */
+
+.container--modal, .container--modal--end {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    background-color: beige;   
+
+}
+
+
+
+.container--modal input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked+div {
+    background-color: #7299F7;
+}
+
+.container--modal__label {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container--modal__input {
+    display: flex;
+    width: 340px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 30px 30px 30px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.container--modal__input:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 10px #aaa;
+	box-shadow: 0 0 10px #aaa;
+    transform: translateY(-7px);
+    transition-duration: 0.4s;
+}
+
+.container--modal__input__div-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container--modal__input__img {
+width: 128px;
+}
+
+.container--modal__input ~ p {
+    text-align: center;
+}
+
+
+.container--modal__button, .container--modal--end__button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: Rexlia-W00-Heavy, serif;
+    background-color: #7299F7;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.container--modal--end .container--modal--end__div {
+ border-bottom: 1px solid #000;
+ width: 50%;
+ margin-left: 25%;
+ margin-right: 25%;
+ text-align: center;
+ margin-bottom: 40px;
+ font-size: 26px;
+
+}
+
+
+/* Style pexeso game */
+.page-title {
+    color: #000;
+    text-align: center;
+    font-size: 6em;   
+
+}
+
+.container--info-second {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 4em;
+}
+
+.container--info-second div:first-child  {
+    margin-right: 120px;
+}
+
+
+.container--card {
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px;
+    grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.container--card__match {
+    height: 128px;
+    width: 128px;  
+    
+
+}
+.container--card__match img {
+background: #fff;
+-webkit-box-shadow: 0 0 10px #262627;
+box-shadow: 0 0 10px #262627;
+cursor: pointer;
+
+}

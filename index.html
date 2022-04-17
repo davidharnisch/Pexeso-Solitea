@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js" charset="utf-8"></script>
+    <title>Pexeso</title>
+</head>
+<body>
+           
+    <h1 class="page-title">Pexeso</h1>
+    <div class="container--main">
+        <div class="container--info-first">
+             <div class="container--info-second">
+               <div>Skóre: <span id="container--info-second__score">0</span></div>
+               <div>Pokusy: <span id="container--info-second__tries">0</span></div>
+            </div>
+        </div>
+        <div class="container--card">
+         
+        </div>
+
+    </div>
+
+
+        <div class="container--modal">
+            <h1 class="page-title">Vyberte pexeso</h1>
+            <div class="container--modal__label">
+            <label for="smallPexeso">
+            
+                <input id="smallPexeso" type="radio" name="foo" value = "0">
+                <div class="container--modal__input">
+                    <h1>Malé pexeso</h1>                    
+                    <div class="container--modal__input__div-img"><img src="images/cow.png" class="container--modal__input__img"></div>
+                    <p>Rozložení karel: 4x4</p>
+                </div>
+            </label>
+            <label for="bigPexeso">
+                
+                <input id="bigPexeso" type="radio" name="foo" value = "1">
+                <div class="container--modal__input">
+                    <h1>Větší pexeso</h1>
+                    <div class="container--modal__input__div-img"><img src="images/cow.png" class="container--modal__input__img"></div>
+                    <p>Rozložení karel: 4x6</p>
+                </div>
+                </label>
+            <label for="biggestPexeso">
+                    
+                <input id="biggestPexeso" type="radio" name="foo" value = "2">
+                <div class="container--modal__input">
+                    <h1>Největší pexeso</h1>
+                    <div class="container--modal__input__div-img"><img src="images/cow.png" class="container--modal__input__img"></div>
+                    <p>Rozložení karel: 4x8</p>
+                </div>
+                    </label>
+            </div>
+           
+                    <div class="container--modal__button"><button class="button"id="gamestart">Začít hru</button></div>    
+
+        </div>
+
+
+        <div class="container--modal--end hide">
+            <h1 class="page-title">Výsledky</h1>
+            <div class="container--modal--end__div">Počet objevených párů: <span id="container--modal--end__score">0</span></div>
+            <div class="container--modal--end__div">Počet pokusů: <span id="container--modal--end__tries">0</span></div>
+            <div class="container--modal--end__div">Celková úspěšnost: <span id="container--modal--end__success">0</span>%</div>
+            <div class="container--modal--end__button"><button class="button" id="gameend">Restart hry</button></div>    
+
+        </div>
+
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Rexlia-W00-Heavy";
+    src: url("fonts/Rexlia-W00-Heavy.woff") format("woff"), url("fonts/Rexlia-W00-Heavy.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    background: #6fbb5a;
+    font-family: Rexlia-W00-Heavy, serif;
+}
+
+.page-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 6em;   
+
+}
+
+.container--info-second {
+    color: #ffffff;
+    font-size: 4em;
+}
+
+
+.container--card {
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px;
+    grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.container--card__match {
+    height: 128px;
+    width: 128px;
+}
