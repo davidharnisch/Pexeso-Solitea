@@ -217,7 +217,6 @@ function createCards() {
     }
 }
 
-
 // check for matches
 function checkForMatch() {
     let cards = document.querySelectorAll('img');
