@@ -31,7 +31,7 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 99;
-    background-color: beige;   
+    background-color: #f5f5dc;   
 
 }
 
@@ -125,14 +125,18 @@ width: 128px;
 .container--info-second {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     color: #ffffff;
     font-size: 4em;
 }
 
 .container--info-second div:first-child  {
-    margin-right: 120px;
+    margin-right: 60px;
 }
 
+.container--info-second div:last-child  {
+    margin-left: 60px;
+}
 
 .container--card {
     display: grid;
@@ -153,5 +157,28 @@ background: #fff;
 -webkit-box-shadow: 0 0 10px #262627;
 box-shadow: 0 0 10px #262627;
 cursor: pointer;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.container--card {
+    display: grid;
+    grid-template-columns: 128px 128px;
+    grid-gap: 10px;
+    margin: 50px;
+    justify-content: center;
+}
+
+.container--info-second div:first-child  {
+    margin-right: 20px;
+
+}
+
+.container--info-second div:last-child  {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
 
 }

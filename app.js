@@ -193,14 +193,14 @@ containerModal.classList.add('hide');
 // choose which array to show based on input check
 
 if (valueInput == 0) {
-var cardArray = cardArraySmall
+var cardArray = cardArraySmall;
 
 
 } else if (valueInput == 1) {
 
-var cardArray = cardArrayBig    
+var cardArray = cardArrayBig;    
 } else {
-    var cardArray = cardArrayBiggest
+    var cardArray = cardArrayBiggest;
 } 
     
 
@@ -211,25 +211,19 @@ cardArray.sort(() => 0.5 - Math.random());
 //create pexeso cards
 function createCards() {
     for (let i = 0; i<cardArray.length; i++) {
-        let newDiv = document.createElement('div');
-        newDiv.classList.add('container--card__match');
 
-        let newDivCardBack = document.createElement('div');
-        newDivCardBack.classList.add('card-back', 'card-face');
-        let newDivCardFront = document.createElement('div');
-        newDivCardFront.classList.add('card-front', 'card-face');
-
-
-        let card = document.createElement('img');
         
-        
-        card.setAttribute('src', 'images/blank.png');
-        card.setAttribute('data-id', i);
-        card.addEventListener('click', flipCard);
-        containerCard.appendChild(newDiv);
-        newDiv.appendChild(newDivCardBack);
-        newDiv.appendChild(newDivCardFront);
-        newDivCardBack.appendChild(card);
+            var card = document.createElement('img');
+            var newDiv = document.createElement('div');
+            newDiv.classList.add('container--card__match');
+            
+            card.setAttribute('src', 'images/blank.png');
+            card.setAttribute('data-id', i);
+            card.addEventListener('click', flipCard);
+            containerCard.appendChild(newDiv);
+            newDiv.appendChild(card);
+
+       
     }
 }
 
@@ -264,7 +258,7 @@ function checkForMatch() {
         resultDisplayEnd.textContent = cardsWon.length;
         triesDisplayEnd.textContent = numTries;
         let resultSuccess = Math.round((cardsWon.length / numTries) * 100);
-        successDisplayEnd.textContent = resultSuccess
+        successDisplayEnd.textContent = resultSuccess;
 
     }
 }
