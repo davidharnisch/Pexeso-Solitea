@@ -273,7 +273,12 @@ function flipCard() {
     cardsChosenId.push(cardId);
     this.setAttribute('src', cardArray[cardId].img);
     if (cardsChosen.length === 2) {
-        setTimeout(checkForMatch, 500)
+        containerCard.style.pointerEvents = "none";
+        setTimeout(function(){
+        checkForMatch();
+        containerCard.style.pointerEvents = "auto";
+            
+        }, 500)
     }
 
 }
